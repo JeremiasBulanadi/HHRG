@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# React - ToDo List 
+Made by Jeremias Bulanadi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Instructions
+1. Open a terminal.
+2. Navigate to the directory of "react-todo".
+3. Run `npm install` to run the neccessary dependencies.
+4. Run `npm run dev` to run the code.
+5. Open the localhost link where the site is running.
 
-Currently, two official plugins are available:
+### Searching for Todos
+Typing in the entry bar at the bottom of the site will automatically filter the todos to those that contain the inputted search phrase.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Adding Todos
+Pressing 'Enter' or clicking the button at the right side of the entry bar will create a new todo with the already inputted string as the title.
 
-## Expanding the ESLint configuration
+### Editing Todos
+Clicking the pencil icon will put the associated entry on edit mode, in which you're able to manipulate the original title and press enter to finish editing.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Delete Todos
+Clicking the trash can icon will delete the associated todo from memory.
