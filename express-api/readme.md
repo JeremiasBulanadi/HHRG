@@ -1,9 +1,14 @@
 # ExpressJS - Employee Records 
 Made by Jeremias Bulanadi
 
-Run `npm start` to start server.
+### Instructions
+1. Open a terminal.
+2. Navigate to the directory of "express-api".
+3. Run `npm install` to run the neccessary dependencies.
+4. Run `npm start` to run the server.
+5. Send the appropriate requests.
 
-Server listens on port 9095.
+The server listens on port 9095
 
 
 To get random employee, send a GET request to:
