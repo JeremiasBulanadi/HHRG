@@ -1,6 +1,8 @@
 # React - ToDo List 
 Made by Jeremias Bulanadi
 
+![Preview](./public/firefox_LSgBH3rbVT.png)
+
 ### Instructions
 1. Open a terminal.
 2. Navigate to the directory of "react-todo".
